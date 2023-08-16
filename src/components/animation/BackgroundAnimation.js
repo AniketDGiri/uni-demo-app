@@ -15,6 +15,16 @@ const BackgroundAnimation = () => {
   return (
     <Particles
       className={classes.tsparticles}
+      style={{
+        position: "fixed",
+        top: "0",
+        left: "0",
+        height: "100%",
+        width: "100%",
+        margin: "0",
+        padding: "0",
+        zIndex: "-1",
+      }}
       init={particlesInit}
       loaded={particlesLoaded}
       options={{

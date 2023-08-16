@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700 mx-10 z-40">
+    <nav className=" dark:bg-gray-900 dark:border-gray-700 mx-10 z-40">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center">
           <img

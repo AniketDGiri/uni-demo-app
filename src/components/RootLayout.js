@@ -5,6 +5,10 @@ import BackgroundAnimation from "./animation/BackgroundAnimation";
 const RootLayout = () => {
   return (
     <>
+      <BackgroundAnimation></BackgroundAnimation>
+
+      {/* <Header /> */}
+      {/* <Outlet /> */}
       <Header />
       <Outlet />
     </>
